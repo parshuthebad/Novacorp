@@ -1,0 +1,14 @@
+body{font-family:Arial,sans-serif;background:#f0f6ff;color:#1b2a3a;margin:0;padding:16px}
+h1{color:#1565c0;font-size:22px;margin:0 0 12px}
+.card{background:#fff;border:1px solid #cfe0f3;border-radius:10px;padding:12px;margin-bottom:12px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+button{background:#1565c0;color:#fff;border:0;border-radius:6px;padding:8px 14px;cursor:pointer}
+button.ghost{background:transparent;color:#1565c0;border:1px solid #1565c0}
+button:disabled{opacity:.5}
+input{padding:7px;border:1px solid #cfe0f3;border-radius:6px}
+.counts{display:flex;gap:8px}.counts div{flex:1;text-align:center;border:1px solid #cfe0f3;border-radius:8px;padding:8px;background:#fff}
+.counts b{display:block;font-size:22px}
+.scroll{max-height:380px;overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:12px}th,td{padding:5px 6px;text-align:left;border-bottom:1px solid #cfe0f3;white-space:nowrap}
+.Done{color:#2e7d32;font-weight:bold}.Failed{color:#c62828;font-weight:bold}.Skipped{color:#8a96a3}
+.err{color:#c62828}pre{font-size:12px;max-height:200px;overflow:auto;white-space:pre-wrap}
